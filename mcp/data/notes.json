@@ -1,0 +1,5 @@
+[
+  {"id": "n1", "title": "Refund policy", "body": "Full refund within 14 days of purchase. After that, store credit only. Refunds go back to the original payment method in 5-7 working days.", "tags": ["support", "billing"]},
+  {"id": "n2", "title": "Deploy checklist", "body": "Run the tests, check the migration on staging, take a database backup, deploy, then watch error rates for 15 minutes.", "tags": ["engineering", "release"]},
+  {"id": "n3", "title": "Onboarding a new client", "body": "Kickoff call, shared folder, brand assets request, first draft in 5 working days.", "tags": ["sales", "process"]}
+]
