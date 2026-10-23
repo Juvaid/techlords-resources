@@ -1,6 +1,6 @@
 # Agent safety checklist
 
-From @techlordbywlm ("Bunty ne prod uda diya"). The agent is rarely the problem; the setup is. Go through this before an AI agent runs commands in your project.
+From @techlordsbywlm ("Bunty ne prod uda diya"). The agent is rarely the problem; the setup is. Go through this before an AI agent runs commands in your project.
 
 ## 1. Sandbox: the agent works away from production
 

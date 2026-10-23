@@ -1,6 +1,6 @@
 # Tech Lords resources
 
-Free templates, checklists and scripts from the [@techlordbywlm](https://instagram.com/techlordbywlm) reels. Each folder is named after the word you comment on a reel.
+Free templates, checklists and scripts from the [@techlordsbywlm](https://instagram.com/techlordsbywlm) reels. Each folder is named after the word you comment on a reel.
 
 | Comment | Reel | What you get |
 |---|---|---|
@@ -17,4 +17,4 @@ Free templates, checklists and scripts from the [@techlordbywlm](https://instagr
 
 Everything here is MIT licensed: use it, change it, ship it.
 
-Follow [@techlordbywlm](https://instagram.com/techlordbywlm) for high-signal AI engineering. Main hoon aapka Tech Lord: smart build karo.
+Follow [@techlordsbywlm](https://instagram.com/techlordsbywlm) for high-signal AI engineering. Main hoon aapka Tech Lord: smart build karo.

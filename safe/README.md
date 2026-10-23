@@ -1,6 +1,6 @@
 # SAFE: check dependencies before you install
 
-From @techlordbywlm ("Fake packages, real hack"). AI agents sometimes suggest npm packages that don't exist. Attackers watch for those names and publish malware under them ("slopsquatting"). The next developer who runs the same prompt installs it.
+From @techlordsbywlm ("Fake packages, real hack"). AI agents sometimes suggest npm packages that don't exist. Attackers watch for those names and publish malware under them ("slopsquatting"). The next developer who runs the same prompt installs it.
 
 ## Three habits
 

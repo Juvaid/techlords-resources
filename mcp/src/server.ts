@@ -1,4 +1,4 @@
-// A minimal MCP server: one tool that searches your own data. From @techlordbywlm ("MCP, 40 second mein").
+// A minimal MCP server: one tool that searches your own data. From @techlordsbywlm ("MCP, 40 second mein").
 // Any MCP-aware AI app (Claude Desktop, Claude Code, Cursor, ...) can connect to it and call `search_notes`.
 import {readFileSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';

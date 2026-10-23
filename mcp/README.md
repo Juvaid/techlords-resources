@@ -1,6 +1,6 @@
 # MCP: a starter server in TypeScript
 
-From @techlordbywlm ("MCP, 40 second mein"). MCP (Model Context Protocol) is one standard plug between AI apps and your tools and data. Build the server once, and every MCP-aware app (Claude Desktop, Claude Code, Cursor and more) can use it.
+From @techlordsbywlm ("MCP, 40 second mein"). MCP (Model Context Protocol) is one standard plug between AI apps and your tools and data. Build the server once, and every MCP-aware app (Claude Desktop, Claude Code, Cursor and more) can use it.
 
 This starter exposes one tool, `search_notes`, that searches `data/notes.json`. Swap in your own data or call your own API inside the tool.
 

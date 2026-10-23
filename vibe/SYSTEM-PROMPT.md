@@ -1,6 +1,6 @@
 # System prompt for coding agents (Claude Code, Cursor)
 
-From @techlordbywlm. Paste the block below where your tool takes standing instructions:
+From @techlordsbywlm. Paste the block below where your tool takes standing instructions:
 
 - **Claude Code:** add it to `CLAUDE.md` at the repo root (or `~/.claude/CLAUDE.md` for every project).
 - **Cursor:** add it as a project rule (Cursor Settings → Rules), or put it in your repo's rules file.

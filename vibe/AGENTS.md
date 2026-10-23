@@ -1,6 +1,6 @@
 # AGENTS.md
 
-<!-- Template from @techlordbywlm. Save this file as AGENTS.md at the root of your repo.
+<!-- Template from @techlordsbywlm. Save this file as AGENTS.md at the root of your repo.
      Many coding agents read AGENTS.md automatically; for Claude Code, also save a copy as CLAUDE.md
      (or add a line to CLAUDE.md that says "Read AGENTS.md first"). Replace every <placeholder>. -->
 

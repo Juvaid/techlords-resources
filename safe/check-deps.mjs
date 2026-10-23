@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// check-deps.mjs: look before you install. From @techlordbywlm ("Fake packages, real hack").
+// check-deps.mjs: look before you install. From @techlordsbywlm ("Fake packages, real hack").
 //
 // AI agents sometimes suggest packages that don't exist, and attackers register those names ("slopsquatting").
 // This script checks npm packages against the registry before they enter your project:
