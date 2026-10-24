@@ -9,6 +9,16 @@ Free templates, checklists and scripts from the [@techlordsbywlm](https://instag
 | **SAFE** | Fake packages, real hack | [`safe/check-deps.mjs`](safe/check-deps.mjs): checks new npm dependencies (exists? how old? how many downloads?) before you install them, plus a CI step |
 | **MCP** | MCP, 40 second mein | [`mcp/`](mcp/): a minimal MCP server in TypeScript with one tool, ready to connect to an AI app |
 
+## Resource hub
+
+The branded hub is designed for **https://techlord.wordlordmedia.com**.
+
+- **GUARD:** https://techlord.wordlordmedia.com/guard — interactive checklist and Markdown download.
+- **VIBE:** https://techlord.wordlordmedia.com/vibe — both coding-agent templates.
+- **Share:** open either resource and use **Copy link** for an Instagram FAQ or saved reply.
+
+Site source and local/deployment commands: [`site/README.md`](site/README.md). The public-account audit and ready-to-paste replies are in [`docs/site/`](docs/site/). No DM automation is included.
+
 ## How to use
 
 1. Open the folder for your keyword.
