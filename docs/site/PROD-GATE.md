@@ -12,3 +12,7 @@ VERDICT: PASS (pre-deployment gate)
 - Independent verification: separate read-only verifier returned PASS, no blocker or major. Its primary-button contrast finding was fixed by using dark text on brand orange.
 - Rollback: previous Worker/assets version for later releases. First release: detach only this new custom domain or dedicated Worker. See site/README.md.
 - Ship decision: branch may be published and this dedicated static Worker deployed. Source branch must be available before live GitHub source links are claimed working. Live DNS/TLS, headers, redirects, downloads, missing-route behavior and browser checks remain the post-deploy acceptance steps.
+
+## HTTPS correction gate
+
+Independent verifier: PASS. Two Worker contract tests pass for path/query-preserving HTTP 308 and unchanged HTTPS asset delegation. Wrangler dry-run passes with the ASSETS binding. Copy-link actions use each page canonical URL, including from preview hosts. Generated runtime declarations and local Wrangler state are excluded from source control. Live acceptance follows the deployment.

@@ -23,6 +23,8 @@ Preview: http://localhost:3185 . Local-only responsive preview: http://localhost
 - The traced TL polygons and halftone treatment come from the Tech Lords Remotion brand system. `build.mjs` exports both SVG marks.
 - The raw Markdown is rendered with escaping, a narrow link protocol allowlist and no embedded HTML support. Keep raw `.md` files as the downloadable source of truth.
 - GUARD checkmarks persist in localStorage on the visitor's device only. No progress data is sent to a server.
+- A small Worker upgrades HTTP to HTTPS before delegating to the static asset binding.
+- Copy-link controls always use the canonical branded URL, including on preview domains.
 - Static response headers enforce self-hosted scripts/styles/fonts, prevent framing, and make the Markdown attachments download as files.
 
 ## Deploy
