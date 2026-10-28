@@ -20,3 +20,15 @@ Independent verifier: PASS. Two Worker contract tests pass for path/query-preser
 ## BILL, TEN, CONTEXT, TOOLS release (28 Oct 2026)
 
 VERDICT: PASS. Merged main (the four new freebies) into the hub branch and added a page for each, a two-column card grid on the homepage, uppercase keyword redirects, sitemap entries and Markdown tables. `build` and `check` pass (8 pages, 88 local targets, 7 matching downloads); worker tests 2/2; Wrangler dry run passed. Checked at 375px: no page overflow, tables scroll inside their own box. Deployed version 5ac39e9d. Live: every new page 200 after the trailing-slash redirect, HTTP → HTTPS 308, downloads byte-identical and served as attachments, a missing path 404. Rollback: `npx wrangler@4.152.0 rollback`.
+
+## Posts, SAFE and MCP release (28 Oct 2026)
+
+VERDICT: PASS.
+- **New content:** the seven reels posted on 27 Oct are added to `content/posts.json`, each with its three steps. URLs were taken from the public profile, and the uncaptioned reel was matched to Fake packages by its cover.
+- **New pages:** `/posts` lists every post with its steps, the reel link and its freebie. `/safe` and `/mcp` render the repo READMEs, with a copy-command button.
+- **Homepage:** the feed shows the six newest posts of any type and links to their steps.
+- **Redirects:** keyword redirects for SAFE, MCP, AGENTS (to VIBE) and POSTS.
+- **Covers:** reel covers are cut from the rendered masters.
+- **Tests:** `build` and `check` pass (11 pages, 140 local targets, 7 matching downloads, 14 posts with steps, keyword redirects); worker tests 2/2; Wrangler dry run passed. `git diff --check` and a secret-prefix scan are clean.
+- **Layout:** checked at 375 px, with no page overflow.
+- **Rollback:** `npx wrangler@4.152.0 rollback`.
