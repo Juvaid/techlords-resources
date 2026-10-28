@@ -13,6 +13,16 @@ Free templates, checklists and scripts from the [@techlordsbywlm](https://instag
 | **CONTEXT** | Duniya ka sabse perfect prompt | [`context/CONTEXT-TEMPLATE.md`](context/CONTEXT-TEMPLATE.md): a task brief with files, pattern and a working example, plus a filled sample |
 | **TOOLS** | Cursor ya Claude Code? Dono. | [`tools/SETUP.md`](tools/SETUP.md): pick the tool by the job, one shared rules file for every agent, and the same safety in both |
 
+## Resource hub
+
+The branded hub is designed for **https://techlord.wordlordmedia.com**.
+
+- **GUARD:** https://techlord.wordlordmedia.com/guard — interactive checklist and Markdown download.
+- **VIBE:** https://techlord.wordlordmedia.com/vibe — both coding-agent templates.
+- **Share:** open either resource and use **Copy link** for an Instagram FAQ or saved reply.
+
+Site source and local/deployment commands: [`site/README.md`](site/README.md). The public-account audit and ready-to-paste replies are in [`docs/site/`](docs/site/). No DM automation is included.
+
 ## How to use
 
 1. Open the folder for your keyword.

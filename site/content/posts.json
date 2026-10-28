@@ -1,0 +1,165 @@
+[
+ {
+  "id": "key-github-pe",
+  "type": "Reel",
+  "title": "Ek raat mein lakh ka AI bill?",
+  "description": "An API key pushed to a public repo, with the .env file.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DfCAeIHRiiX/",
+  "date": "27 Oct 2026",
+  "steps": [
+   "Revoke the key right away and make a new one. Deleting the repo doesn’t help.",
+   "Put .env in .gitignore. Keys live in the environment, never in the code.",
+   "Set a spending limit with your AI provider."
+  ]
+ },
+ {
+  "id": "mere-laptop-pe-chalta-hai",
+  "type": "Reel",
+  "title": "Mere laptop pe toh chalta hai!",
+  "description": "Three machines, three Node versions, three different results.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DfBmr-5x0F9/",
+  "date": "27 Oct 2026",
+  "steps": [
+   "Write your versions down in a file: Node, Python, everything.",
+   "Commit the lockfile, so every machine installs the same packages.",
+   "Use a dev container: one setup, the same on every machine. Run your AI agent inside it too."
+  ]
+ },
+ {
+  "id": "ai-ne-app-bana-diya",
+  "type": "Reel",
+  "title": "Weekend mein AI se app bana liya?",
+  "description": "Three checks before you launch an app an AI built.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DfBck3kzsFg/",
+  "date": "27 Oct 2026",
+  "steps": [
+   "Login and permissions: one user must never see another user’s data.",
+   "Automatic daily backups, and restore one once to prove it works.",
+   "Error alerts, so you hear about a crash before your customers do."
+  ]
+ },
+ {
+  "id": "chat-300-messages",
+  "type": "Reel",
+  "title": "AI pagal ho gaya?",
+  "description": "A 300-message chat fills the context window.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DfBcM5RTOEW/",
+  "date": "27 Oct 2026",
+  "resource": "/vibe",
+  "steps": [
+   "Start a fresh session for every big task.",
+   "Paste a short summary of the old chat into the new one.",
+   "Keep your project rules in one AGENTS.md file that every session reads."
+  ]
+ },
+ {
+  "id": "ai-bill",
+  "type": "Reel",
+  "title": "Yeh AI bill kisne kiya?!",
+  "description": "The biggest model for a spelling check. Every day.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DfAnAaCTcgQ/",
+  "date": "27 Oct 2026",
+  "resource": "/bill",
+  "steps": [
+   "Small job, small model.",
+   "Turn on prompt caching.",
+   "Set a spending limit on every key or project."
+  ]
+ },
+ {
+  "id": "cursor-ya-claude",
+  "type": "Reel",
+  "title": "Cursor ya Claude Code? Dono.",
+  "description": "Choose the tool by the job, not by the hype.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DfAmhF3zqxm/",
+  "date": "27 Oct 2026",
+  "resource": "/tools",
+  "steps": [
+   "Small edits you want to watch: an agent inside the editor, like Cursor.",
+   "Long jobs across files, tests and commands: a terminal agent, like Claude Code.",
+   "Give both the same rules: one AGENTS.md that both tools read."
+  ]
+ },
+ {
+  "id": "fake-packages",
+  "type": "Reel",
+  "title": "AI ka package = hacker ka?",
+  "description": "Slopsquatting: attackers publish the package names AI makes up.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DfAERBwzjnJ/",
+  "date": "27 Oct 2026",
+  "resource": "/safe",
+  "steps": [
+   "Check the registry before you install: when it was published, by whom and how many downloads.",
+   "Commit the lockfile, and don’t let your agent add a dependency without asking.",
+   "Add a dependency check to CI."
+  ]
+ },
+ {
+  "id": "guard",
+  "type": "Reel",
+  "title": "Bunty ne prod uda diya",
+  "description": "Sandbox, permissions and checkpoints before an agent touches production.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/De4Ojl3NpTt/",
+  "resource": "/guard",
+  "date": "24 Oct 2026",
+  "steps": [
+   "Run the agent in a sandbox, never against production.",
+   "Give it only the permissions the task needs.",
+   "Make a git checkpoint before every agent run."
+  ]
+ },
+ {
+  "id": "open-source-oct",
+  "type": "Carousel",
+  "title": "October’s open-source drops",
+  "description": "Find the roundup on Instagram.",
+  "url": "https://www.instagram.com/techlordsbywlm/p/De1ee4Ak9b1/",
+  "date": "23 Oct 2026"
+ },
+ {
+  "id": "carbon-x",
+  "type": "Carousel",
+  "title": "DNA se baat karo",
+  "description": "The Carbon-X explainer.",
+  "url": "https://www.instagram.com/techlordsbywlm/p/De1WSWVk-VJ/",
+  "date": "23 Oct 2026"
+ },
+ {
+  "id": "litellm-attack",
+  "type": "Carousel",
+  "title": "The LiteLLM security incident",
+  "description": "The published security breakdown.",
+  "url": "https://www.instagram.com/techlordsbywlm/p/De1VXjak5Zk/",
+  "date": "23 Oct 2026"
+ },
+ {
+  "id": "openai-google-cloud",
+  "type": "Carousel",
+  "title": "OpenAI × Google Cloud",
+  "description": "The cloud partnership explainer.",
+  "url": "https://www.instagram.com/techlordsbywlm/p/De1UBJGk93-/",
+  "date": "23 Oct 2026"
+ },
+ {
+  "id": "claude-duet",
+  "type": "Carousel",
+  "title": "Claude, a little more proactive",
+  "description": "The Claude Duet explainer.",
+  "url": "https://www.instagram.com/techlordsbywlm/p/De1JeDPEz2x/",
+  "date": "23 Oct 2026"
+ },
+ {
+  "id": "vibe",
+  "type": "Reel",
+  "title": "Vibe coding: three non-negotiables",
+  "description": "Project memory, small changes and verified work.",
+  "url": "https://www.instagram.com/techlordsbywlm/reel/DezBfzYRqOw/",
+  "resource": "/vibe",
+  "date": "22 Oct 2026",
+  "steps": [
+   "Give the agent project memory: an AGENTS.md file.",
+   "Ask for small changes, one task at a time.",
+   "Verify the work: run it and read the diff."
+  ]
+ }
+]
