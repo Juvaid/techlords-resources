@@ -16,3 +16,7 @@ VERDICT: PASS (pre-deployment gate)
 ## HTTPS correction gate
 
 Independent verifier: PASS. Two Worker contract tests pass for path/query-preserving HTTP 308 and unchanged HTTPS asset delegation. Wrangler dry-run passes with the ASSETS binding. Copy-link actions use each page canonical URL, including from preview hosts. Generated runtime declarations and local Wrangler state are excluded from source control. Live acceptance follows the deployment.
+
+## BILL, TEN, CONTEXT, TOOLS release (28 Oct 2026)
+
+VERDICT: PASS. Merged main (the four new freebies) into the hub branch and added a page for each, a two-column card grid on the homepage, uppercase keyword redirects, sitemap entries and Markdown tables. `build` and `check` pass (8 pages, 88 local targets, 7 matching downloads); worker tests 2/2; Wrangler dry run passed. Checked at 375px: no page overflow, tables scroll inside their own box. Deployed version 5ac39e9d. Live: every new page 200 after the trailing-slash redirect, HTTP → HTTPS 308, downloads byte-identical and served as attachments, a missing path 404. Rollback: `npx wrangler@4.152.0 rollback`.
