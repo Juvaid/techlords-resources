@@ -17,8 +17,8 @@ Preview: http://localhost:3185 . Local-only responsive preview: http://localhost
 
 ## Content
 
-- GUARD and VIBE downloads are copied directly from the repository files at build time.
-- `content/posts.json` holds the seven observed live Instagram posts. The homepage features the five carousels; each resource links back to its reel.
+- RETRY, GUARD, VIBE, BILL, TEN, CONTEXT and TOOLS downloads are copied directly from the repository files at build time.
+- `content/posts.json` holds the verified published-post library. The homepage features the six newest entries. Add new posts, correct publication dates, thumbnails and matching resources as part of each release.
 - `public/assets/` holds the original local font files, their OFL licenses, the generated branded share image and stills extracted from the owner's carousel masters.
 - The traced TL polygons and halftone treatment come from the Tech Lords Remotion brand system. `build.mjs` exports both SVG marks.
 - The raw Markdown is rendered with escaping, a narrow link protocol allowlist and no embedded HTML support. Keep raw `.md` files as the downloadable source of truth.

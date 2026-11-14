@@ -32,3 +32,7 @@ Site source and local/deployment commands: [`site/README.md`](site/README.md). T
 Everything here is MIT licensed: use it, change it, ship it.
 
 Follow [@techlordsbywlm](https://instagram.com/techlordsbywlm) for high-signal AI engineering. Main hoon aapka Tech Lord: smart build karo.
+
+## RETRY — Payment retry safety
+
+[Payment retry checklist](retry/RETRY-SAFETY-CHECKLIST.md): provider-aware idempotency guidance, reconciliation and five sandbox failure scenarios.
